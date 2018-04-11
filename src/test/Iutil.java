@@ -11,6 +11,7 @@ public class Iutil {
 		//方法引用，取别名 ,给String compare 方法取个别名bj
 		A <Integer,String> iu = String :: compareTo;
 		System.out.println(iu.bj("H", "h"));
+		
 	}
 
 }
