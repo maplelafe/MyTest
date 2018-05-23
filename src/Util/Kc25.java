@@ -1,6 +1,12 @@
-package test;
+package Util;
+
+
 
 import java.util.Date;
+
+/**
+ * Kc25 entity. @author MyEclipse Persistence Tools
+ */
 
 public class Kc25 implements java.io.Serializable {
 
@@ -77,12 +83,21 @@ public class Kc25 implements java.io.Serializable {
 	private Double eke174;
 	private Double ake044;
 	private Double ake027;
+	private Double eke175;
 
 
 	// Constructors
 	
 	public Double getEke170() {
 		return eke170;
+	}
+
+	public Double getEke175() {
+		return eke175;
+	}
+
+	public void setEke175(Double eke175) {
+		this.eke175 = eke175;
 	}
 
 	public Double getAke044() {
