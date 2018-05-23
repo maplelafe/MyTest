@@ -7,7 +7,8 @@ package flect;
 class  Factory{
 	public static <T> T getInstance(String name) throws Exception{
 		T f = null;
-		f = (T) Class.forName(name).newInstance();//工厂方法获取对象实例，方便扩充子类的功能
+		f = (T) Class.forName(name).newInstance();
+		//工厂方法获取对象实例，方便扩充子类的功能
 		return f;
 	}
 }
