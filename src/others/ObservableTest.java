@@ -1,5 +1,5 @@
 package others;
-
+//观察者模式
 import java.util.Observable;
 import java.util.Observer;
 //定义一个被观察者

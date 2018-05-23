@@ -1,5 +1,6 @@
 package thread;
 
+import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -26,7 +27,7 @@ public class ThreadPool {
 				@Override
 				public void run() {
 					// TODO Auto-generated method stub
-						System.out.println(Thread.currentThread().getName());			
+						System.out.println(new Date()+","+Thread.currentThread().getName());			
 				}
 				
 			}, 3, 2, TimeUnit.SECONDS);
