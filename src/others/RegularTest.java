@@ -16,7 +16,7 @@ public class RegularTest {
 		for (int i=0;i<strs.length;i++){
 			System.out.println(strs[i]);
 		}
-		System.out.println("10101".matches("\\d+(\\.\\d+)?")); //11.212
+		System.out.println("10101".matches("\\d+(\\.\\d+)?")); //11.212,\d 是一个正字表达式，标识所有数字及0-9,\\d转义这个\d
 		System.out.println("11.213".matches("\\d+(\\.\\d+)?"));
 		
 		

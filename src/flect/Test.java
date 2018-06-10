@@ -3,7 +3,11 @@ package flect;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.Date;
-
+/**
+ * 获取实例的集中方法
+ * @author acer
+ * @date 2018年6月10日
+ */
 public class Test {
 
 	public static void main(String[] args) throws ClassNotFoundException, Exception, IllegalAccessException {

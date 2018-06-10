@@ -2,7 +2,11 @@ package file;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
-
+/**
+ * 便利指定目录中的所有文件信息
+ * @author acer
+ * @date 2018年6月10日
+ */
 public class FileInfo {
 
 	public static void main(String[] args) {

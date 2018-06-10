@@ -9,7 +9,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Date;
-
+/**
+ * 文件合并操作
+ * @author acer
+ * @date 2018年6月10日
+ */
 public class CombineFile {
 
 	public static void main(String[] args) throws IOException {

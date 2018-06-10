@@ -1,5 +1,11 @@
 package others;
 
+/**
+ * 每一个ThreadLocal能够放一个线程级别的变量，可是它本身能够被多个线程共享使用，并且又能够达到线程安全的目的，且绝对线程安全。
+ * 定义一个message对象，定义一个Util对象 ，定义两个线程（将对象放到同一个threadlocal中）
+ * @author acer
+ * @date 2018年6月10日
+ */
 class Message{
 	private String message;
 	public void setMessage(String message) {
@@ -32,6 +38,12 @@ class A implements Runnable {
 		Message msg = new Message();
 		msg.setMessage("aaaaa");
 		MyUtil.set(msg);
+		try {
+			Thread.currentThread().sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		};
 		new MessageComsumer().print();
 	}
 	
@@ -44,6 +56,12 @@ class B implements Runnable {
 		Message msg = new Message();
 		msg.setMessage("bbbbb");
 		MyUtil.set(msg);
+		try {
+			Thread.currentThread().sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		};
 		new MessageComsumer().print();
 	}
 	

@@ -1,6 +1,6 @@
 package flect;
 /**
- * 工厂类+泛型
+ * 工厂类+泛型，获取对象实例
  * @author acer
  *
  */
