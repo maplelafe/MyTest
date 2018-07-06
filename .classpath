@@ -12,5 +12,12 @@
 	<classpathentry kind="lib" path="E:/webservice/axis/mail-1.4.jar"/>
 	<classpathentry kind="lib" path="E:/webservice/axis/wsdl4j-1.6.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/acer/Downloads/jedis-2.9.0.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/workspace/lib/jackson-core-2.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/workspace/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/workspace/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/workspace/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/workspace/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/workspace/lib/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Administrator/workspace/lib/json-lib-2.4-jdk15.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
